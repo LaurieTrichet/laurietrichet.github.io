@@ -7,3 +7,99 @@
 
 
 // Then add additional custom code here
+
+.fullpage{
+    height: 1024px ;
+    width: 100%;
+}
+
+.top{
+    background-color: white;
+    height: 35.84% ;
+}
+
+.bottom{
+    background-color: #F49586;
+    height: 100% ;
+    padding-top: 5%;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    filter: invert(94%) sepia(100%) saturate(0%) hue-rotate(235deg) brightness(105%) contrast(100%);
+}
+
+.icon-big{
+    width: 60%;
+    
+    
+    margin-left: 20%;
+    // transform: translate(-50%, -50%) ;
+}
+
+.contact{
+    width: 50%;
+    top: 50%;
+}
+
+.row-contact{
+    height: 80px;
+}
+
+.debug{
+    
+    background: yellow;
+}
+
+.leftMargin {
+    margin-left:10%
+}
+.topMargin {
+    margin-top:5%
+}
+.fill{
+    height: 100%;
+}
+
+.link {
+    font-family: "Lato-Regular";
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.title {
+    font-family: "Lato-Regular";
+    letter-spacing: 5px;
+    font-size: 48px;
+    color: #5f5a5f;
+    margin-top: 5%;
+
+
+}
+
+.subtitle {
+    font-family: "Lato-Light";
+    font-size: 44px;
+    letter-spacing: 2px;
+    color: #5f5a5f;
+    margin-left: 20%;
+}
+
+.intro {
+    font-family: "Lato-Light";
+    font-size: 6rem;
+    color: white;
+    height: 100%;
+}
+
+@font-face{
+    font-family: Lato-Light;
+    src: url(../static/Lato-Light.ttf);
+}
+
+@font-face{
+    font-family: Lato-Regular;
+    src: url(../static/Lato-Regular.ttf);
+}
