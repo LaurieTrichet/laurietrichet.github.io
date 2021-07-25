@@ -75,8 +75,6 @@
     font-size: 48px;
     color: #5f5a5f;
     margin-top: 5%;
-
-
 }
 
 .subtitle {
@@ -94,6 +92,13 @@
     height: 100%;
 }
 
+.smiley {
+    font-family: "Overlock-Regular";
+    font-size: 6rem;
+    color: white;
+    height: 100%;
+}
+
 @font-face{
     font-family: Lato-Light;
     src: url(../static/Lato-Light.ttf);
@@ -102,4 +107,9 @@
 @font-face{
     font-family: Lato-Regular;
     src: url(../static/Lato-Regular.ttf);
+}
+
+@font-face{
+    font-family: Overlock-Regular;
+    src: url(../static/Overlock-Regular.ttf);
 }
